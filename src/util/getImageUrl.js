@@ -1,3 +1,5 @@
+import ceil from 'nanoutils/cjs/ceil'
+
 const sizes = [10, 300, 600, 1200, 1800]
 const outputDir = '/images/uploads/'
 const resizedDir = '/images/uploads/resized/'
@@ -42,8 +44,7 @@ const getImageSrc = (path, sizeRequested) => {
   let size
   if (sizeRequested && imgixUrl) {
     // round to nearest 100px
-    // TODO: replace ceil with nanoutils implementation (https://github.com/nanoutils/nanoutils/issues/167)
-    size = sizeRequested <= 100 ? sizeRequested : Math.ceil(sizeRequested / 100) * 100
+    size = sizeRequested <= 100 ? sizeRequested : ceil(sizeRequested, -2)
   } else if (sizeRequested) {
     // rounds up to nearest size or returns largest
     size =
