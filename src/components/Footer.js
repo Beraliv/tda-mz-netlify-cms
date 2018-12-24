@@ -1,45 +1,9 @@
 import React from 'react'
-
-import Logo from './Logo'
-
+import LogoLink from './LogoLink'
 import './Footer.css'
 
 const removeAtSign = str => str.slice(1)
 const removeNonNumbers = str => str.replace(/[^\w]/g, '')
-
-class LogoLink extends React.Component {
-  state = {
-    hover: false
-  }
-
-  render () {
-    const { hover } = this.state
-    const { alt, className, href } = this.props
-
-    if (hover) {
-
-    }
-
-    return (
-      <a
-        aria-label={alt}
-        alt={alt}
-        className={className}
-        href={href}
-        target='_blank'
-        rel='noopener noreferrer'
-        role='button'
-        onMouseEnter={() => this.setState({ hover: true })}
-        onMouseLeave={() => this.setState({ hover: false })}
-      >
-        <React.Fragment>
-          <Logo className={!hover ? 'hovered' : 'not_hovered'} src={this.props.logo} />
-          <Logo className={hover ? 'idle' : 'not_idle'} src={this.props.hoverLogo} />
-        </React.Fragment>
-      </a>
-    )
-  }
-}
 
 export default ({ globalSettings, socialMediaCard, navLinks }) => {
   const { twitter, facebook, instagram, vkontakte, whatsapp, whatsappMessage } = socialMediaCard
