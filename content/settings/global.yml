@@ -15,4 +15,7 @@ headerScripts: |-
   <!-- Add your analytics scripts / verification meta here -->
   <!-- Yandex webmaster -->
   <meta name="yandex-verification" content="9a9d9d2d42224b39" />
+
+  <!-- Pinterest -->
+  <meta name="p:domain_verify" content="3fd3a113342248a8dc4942c3f5364f65"/>
 enableServiceWorker: true
