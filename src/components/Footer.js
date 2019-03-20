@@ -42,7 +42,7 @@ class LogoLink extends React.Component {
 }
 
 export default ({ globalSettings, socialMediaCard, navLinks }) => {
-  const { twitter, facebook, instagram, vkontakte, whatsapp, whatsappMessage } = socialMediaCard
+  const { twitter, facebook, instagram, vkontakte, whatsapp, whatsappMessage, pinterest } = socialMediaCard
 
   const textToWhatsApp = whatsappMessage
     ? `?text=${encodeURI(whatsappMessage)}`
@@ -95,6 +95,15 @@ export default ({ globalSettings, socialMediaCard, navLinks }) => {
               href={`https://wa.me/${removeNonNumbers(whatsapp)}${textToWhatsApp}`}
               logo='/images/wa.svg'
               hoverLogo='/images/wa-hover.svg'
+            />
+          )}
+          {pinterest && (
+            <LogoLink
+              alt='Link to Pinterest'
+              className='Link Link--Pinterest'
+              href={`https://www.pinterest.ru/${pinterest}`}
+              logo='/images/pin.svg'
+              hoverLogo='/images/pin-hover.svg'
             />
           )}
         </div>
