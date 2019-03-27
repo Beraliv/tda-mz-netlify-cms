@@ -9,14 +9,32 @@ socialMediaCard:
   facebook: '@tdmasterdefender'
   image: /images/uploads/2.jpg
   instagram: '@masterdefender'
+  pinterest: tdmasterdefender
   whatsapp: +7 (903) 669-90-10
   whatsappMessage: 'Николай, здравствуйте!'
-  pinterest: 'tdmasterdefender'
-headerScripts: |-
+headerScripts: >-
   <!-- Add your analytics scripts / verification meta here -->
+
   <!-- Yandex webmaster -->
+
   <meta name="yandex-verification" content="9a9d9d2d42224b39" />
 
+
   <!-- Pinterest -->
+
   <meta name="p:domain_verify" content="3fd3a113342248a8dc4942c3f5364f65"/>
+
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+
+  <script async
+  src="https://www.googletagmanager.com/gtag/js?id=UA-132807267-1"></script>
+
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-132807267-1');
+  </script>
 enableServiceWorker: true
