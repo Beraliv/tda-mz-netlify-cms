@@ -35,6 +35,9 @@ export default class Nav extends React.Component {
             <Logo />
           </AccessibleLink>
           <div className='Nav--Desktop'>
+            <NavLink to='/' exact>
+              Мастер Защиты
+            </NavLink>
             <NavLink to='/gallery/' exact>
               Галерея
             </NavLink>
@@ -57,20 +60,48 @@ export default class Nav extends React.Component {
           transitionDuration={{ enter: 100, exit: 100 }}
           onBlur={this.handleClose}
         >
-          <AccessibleLink alt='Link to Home' className='Link' to='/'>
+          <AccessibleLink
+            alt='Link to Home'
+            className='Link'
+            to='/'
+            onClick={this.handleClose}
+          >
             <Logo />
           </AccessibleLink>
           <Divider />
-          <NavLink to='/gallery/' exact>
+          <NavLink
+            exact
+            onClick={this.handleClose}
+            to='/'
+          >
+            Мастер Защиты
+          </NavLink>
+          <NavLink
+            exact
+            onClick={this.handleClose}
+            to='/gallery/'
+          >
             Галерея
           </NavLink>
-          <NavLink to='/benefits/' exact>
+          <NavLink
+            exact
+            onClick={this.handleClose}
+            to='/benefits/'
+          >
             Почему мы
           </NavLink>
-          <NavLink to='/blog/' exact>
+          <NavLink
+            exact
+            onClick={this.handleClose}
+            to='/blog/'
+          >
             Новости
           </NavLink>
-          <NavLink to='/contact/' exact>
+          <NavLink
+            exact
+            onClick={this.handleClose}
+            to='/contact/'
+          >
             Контакты
           </NavLink>
           <Divider />
