@@ -28,9 +28,7 @@
 }
 
 .Nav--Drawer .Link {
-  display: flex;
-  justify-content: center;
-  margin: 2rem 0;
+  margin: 2rem auto;
 }
 
 .Nav--Drawer .NavLink {
@@ -46,11 +44,10 @@
   margin-right: 3rem;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
   .Nav--Container .Nav--Sandwich {
     display: block;
     cursor: pointer;
-    margin-right: 3rem;
   }
 
   .Nav--Desktop {
@@ -58,8 +55,6 @@
   }
 
   .Nav .Link {
-    width: 100%;
-    display: flex;
-    justify-content: center;
+    margin: 0 auto;
   }
 }
