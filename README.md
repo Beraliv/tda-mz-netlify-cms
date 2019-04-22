@@ -1,8 +1,9 @@
-# Netlify CMS + React Starter
+# TDA-MZ - Netlify CMS + React Starter based
 
 [![Standard - JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg?style=flat-square)](http://standardjs.com/)
 [![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 [![dependencies](https://david-dm.org/beraliv/tda-mz-netlify-cms.svg?style=flat-square)](https://david-dm.org/beraliv/tda-mz-netlify-cms)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/fb497bc7-e768-4d20-810b-de25b4e6d605/deploy-status)](https://app.netlify.com/sites/tda-mz/deploys)
 
 A starter project for creating lightning-fast, offline-first websites with [Netlify CMS](https://netlifycms.org) and React.
 
