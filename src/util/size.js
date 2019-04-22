@@ -4,6 +4,6 @@ const adjustSize = (multiplier) => ({ width, height }) => ({
 })
 
 export const adjustSizeInGallery = (image) => {
-  const adjustInGallery = adjustSize(200 / image.height)
+  const adjustInGallery = adjustSize(275 / image.height)
   return adjustInGallery(image)
 }
