@@ -4,7 +4,58 @@ subtitle: Торговый Дом «Мастер Защиты»
 featuredImage: /images/uploads/1.jpg
 photoGallery:
   - images:
-      - /images/uploads/IMG-20150723-WA0007.jpg
+      - /images/uploads/1.jpg
+      - /images/uploads/11870660_1442456842750873_3626898134437206153_n.jpg
+      - /images/uploads/15.jpg
+      - /images/uploads/2.jpg
+      - /images/uploads/20180201_125609.jpg
+      - /images/uploads/20180201_130230.jpg
+      - /images/uploads/20180201_131220.jpg
+      - /images/uploads/20180616_134817.jpg
+      - /images/uploads/20180616_134832.jpg
+      - /images/uploads/DSC_0462.JPG
+      - /images/uploads/IMG-20150218-WA0005.jpg
+      - /images/uploads/IMG-20151222-WA0020.jpg
+      - /images/uploads/IMG-20151222-WA0021.jpg
+      - /images/uploads/IMG_3787.JPG
+      - /images/uploads/IMG-20160329-WA0015.jpg
+      - /images/uploads/IMG-20160720-WA0004.jpg
+      - /images/uploads/IMG-20160726-WA0053.jpg
+      - /images/uploads/IMG-20160805-WA0000.jpg
+      - /images/uploads/IMG-20161001-WA0011.jpg
+      - /images/uploads/IMG-20161021-WA0005.jpg
+      - /images/uploads/IMG_2464.JPG
+      - /images/uploads/IMG_2521.JPG
+      - /images/uploads/IMG_2652.JPG
+      - /images/uploads/IMG_2990.JPG
+      - /images/uploads/IMG_3381.JPG
+      - /images/uploads/IMG_3383.JPG
+      - /images/uploads/IMG_3392.JPG
+      - /images/uploads/IMG_3747.JPG
+      - /images/uploads/IMG_3748.JPG
+      - /images/uploads/IMG_3782.JPG
+      - /images/uploads/IMG_3818.JPG
+      - /images/uploads/IMG_3823.JPG
+      - /images/uploads/IMG_3827.JPG
+      - /images/uploads/IMG_3839.JPG
+      - /images/uploads/IMG_3904.JPG
+      - /images/uploads/IMG_3911.JPG
+      - /images/uploads/IMG_4042.JPG
+      - /images/uploads/IMG_4158.JPG
+      - /images/uploads/IMG_4160.JPG
+      - /images/uploads/IMG_4162.JPG
+      - /images/uploads/IMG_4425.JPG
+      - /images/uploads/P1010277.JPG
+      - /images/uploads/black_vent02.jpg
+      - /images/uploads/gkyU2af14wo.jpg
+      - /images/uploads/image.jpeg
+      - /images/uploads/image.png
+      - /images/uploads/image (1).jpeg
+      - /images/uploads/image_8.jpeg
+      - /images/uploads/Разворот стр 37-38.jpg
+      - /images/uploads/круги и стекло ромб2.jpeg
+      - /images/uploads/стр60 (право).jpg
+      - /images/uploads/фото 1.JPG
     title: Входные двери
   - images:
       - /images/uploads/IMG-20150723-WA0007.jpg
